@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Hi from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <div>Hellow</div>,
+ <Hi name="Owais"/>,
   document.getElementById('root')
 );
 

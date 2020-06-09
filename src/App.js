@@ -1,26 +1,18 @@
 import React from 'react';
+import './Hello.css'
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Owais Ishfaq practiced content of second lecture, bootcamp2020.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function Hi(props) {
+return <div>
+  
+  <h1>Salam!</h1>
+  <h2 className="myname"> My name is <strong>{props.name}</strong></h2>
+    I'm an Electrical Engineer.
+  <h4>Calculating JS Expression below:</h4>
+  10+5={10+5}
+      </div>
+
 }
 
-export default App;
+export default Hi;
